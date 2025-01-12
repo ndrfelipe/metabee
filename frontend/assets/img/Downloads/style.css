@@ -1,0 +1,401 @@
+<<<<<<< HEAD
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Jost', sans-serif;
+    background-image: linear-gradient(to left, #3f4370, #1b1c2b , #1e2252);
+    background-size: 500% 100%;
+    animation: degrade-animado 15s infinite alternate;
+    
+
+    
+    
+}
+
+@keyframes degrade-animado {
+    0% {
+        background-position-x: 0% ;
+    }
+
+100% {
+    background-position-x: 100%;
+}
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+    
+    
+
+}
+
+#topo {
+    height: 150px;
+    padding-top: 25px;
+    
+    
+}
+
+.logo {
+    width: 450px;
+    height: 70px;
+    background: url(./imagens/logo.png) no-repeat;
+    text-indent: -3000px; 
+    float:right;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+#topo ul {
+    background: #8c572f;
+    float: right;
+    margin-top: 10px;
+}
+
+#topo ul li {
+    float: left;
+
+}
+/* menu design */
+#topo ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: white;
+  
+}
+
+
+/* efeito ao passar o mouse por cima */
+#topo ul a:hover {
+    color: #b98822;
+}
+
+/* mude aqui o #a para a outra categoria que você criou */
+body.inicio #navegacao a#inicio {
+    color: white;
+    background: #3f4370;
+    cursor: text;
+}
+
+
+/* AULA 2 */
+
+#conteudo {
+    background: #8c572f;
+    margin-top: 25px;
+    
+
+}
+
+#primario {
+    width: 270px;
+    float: left;
+    /* float: elementos flutuantes */
+    margin: 0 0 20px 195px;
+    
+
+}
+
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    
+}
+
+#lateral h2 {
+    width: 173px;
+    /* AQUI TU AJEITOU O LADO DIREITO DA CAIXA "TERÇOS" */
+    padding: 10px;
+    
+}
+
+h2 {
+    font-size: 1.1em;
+    background: #8c572f;
+    color: white;
+    padding: 10px;
+    width: 262px;
+    /* ESSA MERDA AQUI TU AJEITA A LARGURA DIREITA DAS CAIXAS H2 */
+    
+    
+    /* NAO PERDE */
+
+
+}
+
+.caixa-conteudo {
+    background: rgb(230, 225, 225);
+    padding: 10px;
+     /*CALMAAAAAAAAAAAAA  */
+    margin: 10px 4 0;
+    /* AQUI ESSA DESGRAÇA PRA AJEITAR AS BORDAS DIFERENTEEEEEES DO LADO DIREITO DAAAS OUTRAS BOMBAS CONTEUDOS TB */
+    
+    
+    /* AQUI */
+    
+}
+
+.caixa {
+    margin: 10px -5 -10;
+    /* ESSA BOSTA AQUI DO -7 AJUSTOU O LAADO ESQUERDO  */
+    padding: 10px;
+
+}
+
+
+#secundario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+    
+
+    
+}
+
+
+#container-rodape {
+    background: #3f4370;
+    padding: 10px;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: white;
+}
+
+/* AULA 3 */
+
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+#lateral ul a:hover {
+    color: #b98822;
+    
+}
+
+
+/* AULA 4 */
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Jost', sans-serif;
+    background-image: linear-gradient(to left, #3f4370, #1b1c2b , #1e2252);
+    background-size: 500% 100%;
+    animation: degrade-animado 15s infinite alternate;
+    
+
+    
+    
+}
+
+@keyframes degrade-animado {
+    0% {
+        background-position-x: 0% ;
+    }
+
+100% {
+    background-position-x: 100%;
+}
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+    
+    
+
+}
+
+#topo {
+    height: 150px;
+    padding-top: 25px;
+    
+    
+}
+
+.logo {
+    width: 450px;
+    height: 70px;
+    background: url(./imagens/logo.png) no-repeat;
+    text-indent: -3000px; 
+    float:right;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+#topo ul {
+    background: #8c572f;
+    float: right;
+    margin-top: 10px;
+}
+
+#topo ul li {
+    float: left;
+
+}
+/* menu design */
+#topo ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: white;
+  
+}
+
+
+/* efeito ao passar o mouse por cima */
+#topo ul a:hover {
+    color: #b98822;
+}
+
+/* mude aqui o #a para a outra categoria que você criou */
+body.inicio #navegacao a#inicio {
+    color: white;
+    background: #3f4370;
+    cursor: text;
+}
+
+
+/* AULA 2 */
+
+#conteudo {
+    background: #8c572f;
+    margin-top: 25px;
+    
+
+}
+
+#primario {
+    width: 270px;
+    float: left;
+    /* float: elementos flutuantes */
+    margin: 0 0 20px 195px;
+    
+
+}
+
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    
+}
+
+#lateral h2 {
+    width: 173px;
+    /* AQUI TU AJEITOU O LADO DIREITO DA CAIXA "TERÇOS" */
+    padding: 10px;
+    
+}
+
+h2 {
+    font-size: 1.1em;
+    background: #8c572f;
+    color: white;
+    padding: 10px;
+    width: 262px;
+    /* ESSA MERDA AQUI TU AJEITA A LARGURA DIREITA DAS CAIXAS H2 */
+    
+    
+    /* NAO PERDE */
+
+
+}
+
+.caixa-conteudo {
+    background: rgb(230, 225, 225);
+    padding: 10px;
+     /*CALMAAAAAAAAAAAAA  */
+    margin: 10px 4 0;
+    /* AQUI ESSA DESGRAÇA PRA AJEITAR AS BORDAS DIFERENTEEEEEES DO LADO DIREITO DAAAS OUTRAS BOMBAS CONTEUDOS TB */
+    
+    
+    /* AQUI */
+    
+}
+
+.caixa {
+    margin: 10px -5 -10;
+    /* ESSA BOSTA AQUI DO -7 AJUSTOU O LAADO ESQUERDO  */
+    padding: 10px;
+
+}
+
+
+#secundario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+    
+
+    
+}
+
+
+#container-rodape {
+    background: #3f4370;
+    padding: 10px;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: white;
+}
+
+/* AULA 3 */
+
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+#lateral ul a:hover {
+    color: #b98822;
+    
+}
+
+
+/* AULA 4 */
+>>>>>>> 65aea5b4cf904c6ca69bbf12f7bf904bb376fe75

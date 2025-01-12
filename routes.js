@@ -1,15 +1,16 @@
 const express = require("express");
 const route = express.Router();
 const homeController = require('./src/controllers/homeController');
-const agendamentoController = require('./src/controllers/agendamentoController');
+const loginController = require('./src/controllers/loginController');
 
 
-// Routes Home
-route.get('/', homeController.paginaInicial);
-route.post('/', homeController.trataPost);
+// Routes da Home
+route.get('/', homeController.index);
 
- 
-route.get('/agendamento', agendamentoController.paginaInicial);
-
+// rotas de login
+route.get('/login/index', loginController.index)
+route.post('/login/register', loginController.register)
+route.get('/login/logar', loginController.logar)
+route.post('/login/login', loginController.login)
 
 module.exports = route;

@@ -1,0 +1,39 @@
+<%- include('includes/head') %>
+  <!-- caixa de registro -->
+  
+    <div class="d-flex justify-content-center align-items-center flex-column vh-100 bg-success b-1">
+        <div class="bg-light text-center rounded-pill p-3 mb-3 w-50">
+            <p class="m-0">Se você ainda não tem conta, preencha o formulário abaixo: </p>
+        </div>
+
+       
+
+        <div class="register-box p-3 bg-white shadow rounded w-25">
+            <h2 class="text-center mb-4"><img src="../../frontend/assets/img/register.png" width="150px"></h2>
+            <%- include('includes/messages'); %>
+            <form action="/login/register" method="POST">
+                <input type="hidden" name="_csrf" value=<%= csrfToken %>>
+                <div class="mb-3">
+                    <label for="name" class="form-label fw-bold">NOME</label>
+                    <input type="text" class="form-control" id="name" name="nome" >
+                </div>
+    
+                <div class="mb-3">
+                    <label for="email" class="form-label fw-bold">EMAIL</label>
+                    <input type="text" class="form-control" id="email" name="email" >
+                </div>
+    
+                <div class="mb-3">
+                    <label for="password" class="form-label fw-bold">SENHA</label>
+                    <input type="password" class="form-control" id="password" name="senha" >
+                </div>
+               
+                <div class="text-end mt-4">
+                    <button type="submit" class="btn btn-success px-4">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
+<%- include('includes/footer') %>

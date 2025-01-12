@@ -1,0 +1,57 @@
+<%- include('includes/head') %>
+<%- include('includes/nav') %>
+
+<main class="d-flex flex-column align-items-center justify-content-center mt-5">
+    <div class="bg-light-green text-center rounded-pill p-3">
+        <p class="m-0">Olá, seja bem-vindo (a) ao metabee.</p>
+    </div>
+
+
+<div class="responsive-table mt-5 w-75">
+    <table class="table">
+        <tr>
+            <td scope="col" style="background-color: #E37E03; color: #f1f1f1;">TÍTULO</td>
+            <td scope="col" style="background-color: #E37E03; color: #f1f1f1;">VALOR</td>
+            <td scope="col" style="background-color: #E37E03; color: #f1f1f1;">META</td>
+            <td scope="col" style="background-color: #E37E03; color: #f1f1f1;">DATA</td>
+            <td scope="col" style="background-color: #E37E03; color: #f1f1f1;">AÇÕES</td>
+        </tr>
+
+        <tbody>
+        <tr>
+        <th scope="row">Comprar uma TV</th>
+        <td>R$ 4.000</td>
+        <td>
+            <div class="progress" style="height: 20px;">
+            <div class="progress-bar" role="progressbar" style="width: 50%; background-color: #28a745;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+            </div>
+        </td>
+        <td>15/04/2025</td>
+        <td>
+            <button type="submit" class="btn btn-primary px-1 py-1" >Depositar</button>
+            <button type="submit" class="btn btn-success px-1 py-1" >Editar</button>
+            <button type="submit" class="btn btn-secondary px-1 py-1">Deletar</button>
+        </td>
+        </tr>
+        <tr>
+        <th scope="row">Viajar ao Canadá</th>
+        <td>R$ 10.000</td>
+        <td>
+            <div class="progress" style="height: 20px;">
+            <div class="progress-bar" role="progressbar" style="width: 30%; background-color: #17a2b8;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">30%</div>
+            </div>
+        </td>
+        <td>15/04/2025</td>
+        <td>
+            <button type="submit" class="btn btn-primary px-1 py-1" >Depositar</button>
+            <button type="submit" class="btn btn-success px-1 py-1" >Editar</button>
+            <button type="submit" class="btn btn-secondary px-1 py-1">Deletar</button>
+        </td>
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+</main>  
+
+<%- include('includes/footer') %>
